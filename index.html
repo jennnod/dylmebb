@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do You Love Me?</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div id="question-screen" class="card">
+        <h1 class="title">Do you love me?</h1>
+        <div class="gif-container">
+          <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExamkwcWFjbTN4eWFhd2R0dm44eTNuNzkxZm1xcnUybzBqYTAzODBubyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/H6Yv2GsSjBSnArRtfa/giphy.gif" alt="Cute bear" class="cute-gif" id="initial-gif">
+        </div>
+        <div class="buttons">
+          <button id="yes-btn" class="btn btn-yes">Yes</button>
+          <button id="no-btn" class="btn btn-no">No</button>
+        </div>
+      </div>
+
+      <div id="success-screen" class="hidden">
+        <h1 class="success-message">hehe aku tau kok kamu masih sayang aku ❤️</h1>
+        <div class="gif-container">
+          <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzFzaHJmZDI1dTZ3ZGZ2bHd4djRyenpodjJrZjFmMmI4NXc2azB6aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/lNz8IHlbdIOf0Kjwyh/giphy.gif" alt="Happy bear" class="cute-gif">
+        </div>
+        <p class="sub-text">makasih bb, love u so much!</p>
+      </div>
+    </div>
+
+    <!-- Floating hearts container -->
+    <div id="hearts-container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
